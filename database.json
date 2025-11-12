@@ -1,6 +1,18 @@
 [
     {
-        "Email": "hamza.hf44@gmail.com",
-        "Resultat": 7342.58
+        "Email": "hamza_fattah@live.se",
+        "Köpesumma": 700000.0,
+        "Renovering": 70000.0,
+        "Försäljningspris": 1245000.0,
+        "Vinst": 475000.0,
+        "Månadskostnad inkl. avgift": 11528.69
+    },
+    {
+        "Email": "nour99@live.se",
+        "Köpesumma": 1000000.0,
+        "Renovering": 260000,
+        "Försäljningspris": 1500000.0,
+        "Vinst": 240000.0,
+        "Månadskostnad inkl. avgift": 16374.33
     }
 ]

@@ -2,18 +2,16 @@ import re
 import json
 from getpass import getpass
 
-
 class UserSystem:
     def __init__(self, filename="users.json"):
         self.filename = filename
         self.users = self.load_users()
 
     def load_users(self):
-
         try:
             with open(self.filename, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except FileNotFoundError, json.JSONDecodeError:
+        except (FileNotFoundError, json.JSONDecodeError):
             return {}
 
     def save_users(self):
