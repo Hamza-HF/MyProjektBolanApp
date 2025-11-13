@@ -99,7 +99,6 @@ def main():
                     val = input("Välj: ")
 
                     if val == "1":
-                        # Skapa ett NYTT BolanApp objekt för varje beräkning
                         app = BolanApp()
                         print(f"DEBUG: Skapat nytt BolanApp objekt: {type(app)}")
                         
@@ -107,11 +106,6 @@ def main():
                         renoverings_val(app)
                         lägg_till_avgift(app)
                         försäljnings_beräkning(app)
-                        
-                        # Debugging innan sparande
-                        print(f"DEBUG: Före sparande - lägenhetspris: {app.lägenhetspris}")
-                        print(f"DEBUG: Före sparande - renovering: {app.renoveringskostnad}")
-                        print(f"DEBUG: Före sparande - försäljningspris: {app.försäljningspris}")
                         
                         db.spara_resultat(user, app)
 

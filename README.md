@@ -1,4 +1,4 @@
-   Projektbeskriving
+# Projektbeskriving
 Hej! Jag heter Hamza och här är mitt projekt - en avancerad bolånekalkylator som hjälper dig att beräkna månadskostnader för bolån, renoveringskostnader och vinst/förlust vid försäljning av bostad.
 # Skapa ett nytt virtuellt miljö
 python3 -m venv venv
@@ -16,7 +16,7 @@ source venv/bin/activate
    Syfte och Mål
 Programmet är utformat för att ge bostadsköpare och säljare en tydlig översikt över alla kostnader och potentiell vinst i en bostadsaffär. Min vision är att utveckla detta till en fullskalig webbplats som lanseras sommaren 2026.
 
-   Funktioner
+# Funktioner
    Användarsystem
 Registrering - Skapa nytt konto med e-postverifiering
 
@@ -95,13 +95,13 @@ Historik över beräkningar
 
 Filbaserad lagring
 
-   Installation och Körning
-Förutsättningar
-Python 3.6 eller högre
+# Installation och Körning
+  Förutsättningar
+  Python 3.6 eller högre
 
 Ingen extra installation krävs
 
-   Starta programmet
+   # Starta programmet
 
    Användning
 Starta programmet - Välj att logga in eller skapa konto
@@ -140,7 +140,7 @@ Edge cases och felhantering
 
 Datalagringstester med temporära filer
 
-   Framtida Utveckling
+  # Framtida Utveckling
 Planer för 2026 Lansering
 Webbgränssnitt med React/Flask
 
